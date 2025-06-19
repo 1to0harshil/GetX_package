@@ -15,9 +15,9 @@ AuthRepository get authRepository => di.s1<AuthRepository>();
 CommonRepository get commonRepository => di.s1<CommonRepository>();
 
 extension ScreenSpace on num {
+  double get screenWidth => Get.width * (toDouble() / 100);
   double get screenHeight => Get.height * (toDouble() / 100);
 
-  double get screenWidth => Get.width * (toDouble() / 100);
 }
 
 extension EmptySpace on num {

@@ -1,0 +1,63 @@
+name: get_x_structure
+description: "A code clean structure ready to use"
+version: 0.0.2
+homepage: 'https://github.com/1to0harshil/GetX_package'
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: ^4.7.2
+  path: ^1.8.3
+  get_cli: ^1.8.1
+  sizer: ^2.0.15
+  get_storage: ^2.1.1
+  dio: ^5.1.1
+  connectivity_plus: ^5.0.1
+  dartz: ^0.10.1
+  permission_handler: ^11.0.1
+  get_it: ^7.6.4
+  shimmer: ^3.0.0
+  equatable: ^2.0.5
+  device_info_plus: ^9.1.0
+  package_info_plus: ^4.0.0
+  path_provider: ^2.1.3
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  analysis_options: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Heebo
+      fonts:
+        - asset: assets/fonts/Heebo-Regular.ttf
+
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Regular.ttf
+
+    - family: SFPro-Text
+      fonts:
+        - asset: assets/fonts/SFProText-Regular.otf
+
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+
+    - family: Instagram
+      fonts:
+        - asset: assets/fonts/Instagram.ttf
+
